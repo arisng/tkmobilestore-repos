@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30915.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Web", "TKMobileStore.Web\TKMobileStore.Web.csproj", "{D9424228-A834-4E76-A5C1-E5DB028EE586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Web.Tests", "TKMobileStore.Web.Tests\TKMobileStore.Web.Tests.csproj", "{FBB69799-91F5-4360-8808-0CFED1B841EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2F2D8B82-8E28-4F11-B548-179D309C03DE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{DFA1787D-8D28-4A5F-BA31-58254E3769A2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\TKMobileStoreWeb-WAWS-dev.json = PublishScripts\Configurations\TKMobileStoreWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6BF8463C-9297-4073-AD34-5FF5DBD1D933}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9424228-A834-4E76-A5C1-E5DB028EE586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9424228-A834-4E76-A5C1-E5DB028EE586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9424228-A834-4E76-A5C1-E5DB028EE586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9424228-A834-4E76-A5C1-E5DB028EE586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB69799-91F5-4360-8808-0CFED1B841EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB69799-91F5-4360-8808-0CFED1B841EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB69799-91F5-4360-8808-0CFED1B841EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB69799-91F5-4360-8808-0CFED1B841EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFA1787D-8D28-4A5F-BA31-58254E3769A2} = {2F2D8B82-8E28-4F11-B548-179D309C03DE}
+	EndGlobalSection
+EndGlobal
