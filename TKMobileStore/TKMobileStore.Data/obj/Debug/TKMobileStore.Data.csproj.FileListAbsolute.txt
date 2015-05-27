@@ -1,0 +1,4 @@
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\TKMobileStore.Data.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\TKMobileStore.Data.pdb
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\obj\Debug\TKMobileStore.Data.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\obj\Debug\TKMobileStore.Data.pdb
