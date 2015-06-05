@@ -27,6 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6BF846
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Data", "TKMobileStore.Data\TKMobileStore.Data.csproj", "{F4B868F0-6421-4761-A43B-5D50C868C551}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E36D27A-9E88-4E07-9A80-7625332FC6DA} = {3E36D27A-9E88-4E07-9A80-7625332FC6DA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Entities", "TKMobileStore.Entities\TKMobileStore.Entities.csproj", "{3E36D27A-9E88-4E07-9A80-7625332FC6DA}"
 EndProject
