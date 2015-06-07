@@ -48,7 +48,10 @@ namespace TKMobileStore.Entities.Catalog
 
         public int StockQuantity { get; set; }
 
-        public int NewCondition { get; set; }
+        /// <summary>
+        /// Gets or sets a value which represents the percentage indicating the current condition of a product
+        /// </summary>
+        public int ProductCondition { get; set; }
 
         /// <summary>
         /// Gets or sets the meta keywords
@@ -84,6 +87,7 @@ namespace TKMobileStore.Entities.Catalog
         /// Gets or sets the available start date and time
         /// </summary>
         public DateTime? AvailableStartDateTimeUtc { get; set; }
+
         /// <summary>
         /// Gets or sets the available end date and time
         /// </summary>
@@ -105,8 +109,6 @@ namespace TKMobileStore.Entities.Catalog
                 this.ProductTypeId = (int)value;
             }
         }
-
-
 
 
 
