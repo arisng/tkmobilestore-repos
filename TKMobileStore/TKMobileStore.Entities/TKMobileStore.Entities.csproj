@@ -49,6 +49,7 @@
     <Compile Include="Catalog\ProductManufacturer.cs" />
     <Compile Include="Catalog\ProductPicture.cs" />
     <Compile Include="Catalog\ProductSortingEnum.cs" />
+    <Compile Include="Catalog\ProductSpecs.cs" />
     <Compile Include="Catalog\ProductTag.cs" />
     <Compile Include="Catalog\ProductType.cs" />
     <Compile Include="Customers\Customer.cs" />
