@@ -23,6 +23,8 @@ namespace TKMobileStore.Entities.Catalog
         private ICollection<Discount> _appliedDiscounts;
         //private ICollection<ProductWarehouseInventory> _productWarehouseInventory;
 
+        public string Name { get; set; }
+
         public string ShortDescription { get; set; }
 
         public string FullDescription { get; set; }

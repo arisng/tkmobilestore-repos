@@ -11,10 +11,10 @@ namespace TKMobileStore.Entities.Catalog
         /// <summary>
         /// Simple product
         /// </summary>
-        SimpleProduct = 5,
+        SimpleProduct = 1,
         /// <summary>
         /// Grouped product
         /// </summary>
-        GroupedProduct = 10,
+        GroupedProduct = 2,
     }
 }
