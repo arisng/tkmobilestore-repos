@@ -112,9 +112,9 @@ namespace TKMobileStore.Entities.Catalog
             }
         }
 
-        public int ProductSpecsId { get; set; }
+        public int ProductSpecificationId { get; set; }
 
-        public ProductSpecs ProductSpecs { get; set; }
+        public ProductSpecification ProductSpecification { get; set; }
 
 
         /// <summary>

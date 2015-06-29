@@ -49,9 +49,13 @@
     <Compile Include="Catalog\ProductManufacturer.cs" />
     <Compile Include="Catalog\ProductPicture.cs" />
     <Compile Include="Catalog\ProductSortingEnum.cs" />
-    <Compile Include="Catalog\ProductSpecs.cs" />
+    <Compile Include="Catalog\ProductSpecificationAttribute.cs" />
+    <Compile Include="Catalog\ProductSpecification.cs" />
     <Compile Include="Catalog\ProductTag.cs" />
     <Compile Include="Catalog\ProductType.cs" />
+    <Compile Include="Catalog\SpecificationAttribute.cs" />
+    <Compile Include="Catalog\SpecificationAttributeOption.cs" />
+    <Compile Include="Catalog\SpecificationAttributeType.cs" />
     <Compile Include="Customers\Customer.cs" />
     <Compile Include="Customers\ExternalAuthenticationRecord.cs" />
     <Compile Include="Discount\Discount.cs" />

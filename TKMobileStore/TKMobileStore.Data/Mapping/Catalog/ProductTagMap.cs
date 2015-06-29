@@ -12,7 +12,7 @@ namespace TKMobileStore.Data.Mapping.Catalog
     {
         public ProductTagMap()
         {
-            this.ToTable("Product_Tag_Mapping");
+            this.ToTable("ProductTag");
             this.HasKey(pt => pt.Id);
             this.Property(pt => pt.Name).IsRequired().HasMaxLength(400);
         }
