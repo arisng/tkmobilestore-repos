@@ -33,6 +33,7 @@
         /// </summary>
         public virtual SpecificationAttributeOption SpecificationAttributeOption { get; set; }
 
+        public virtual ProductSpecification ProductSpecification { get; set; }
 
         /// <summary>
         /// Gets the attribute control type

@@ -23,7 +23,7 @@ namespace TKMobileStore.Entities.Media
         /// <summary>
         /// Gets or sets the SEO friednly filename of the picture
         /// </summary>
-        public string SeoFilename { get; set; }
+        public string SeoFileName { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating whether the picture is new

@@ -78,22 +78,22 @@ namespace TKMobileStore.Entities.Catalog
         /// <summary>
         /// Gets or sets the date and time of product creation
         /// </summary>
-        public DateTime CreatedOnUtc { get; set; }
+        public DateTime CreatedOn { get; set; }
 
         /// <summary>
         /// Gets or sets the date and time of product update
         /// </summary>
-        public DateTime UpdatedOnUtc { get; set; }
+        public DateTime UpdatedOn { get; set; }
 
         /// <summary>
         /// Gets or sets the available start date and time
         /// </summary>
-        public DateTime? AvailableStartDateTimeUtc { get; set; }
+        public DateTime? AvailableStartDateTime { get; set; }
 
         /// <summary>
         /// Gets or sets the available end date and time
         /// </summary>
-        public DateTime? AvailableEndDateTimeUtc { get; set; }
+        public DateTime? AvailableEndDateTime { get; set; }
 
         public int ProductTypeId { get; set; }
 

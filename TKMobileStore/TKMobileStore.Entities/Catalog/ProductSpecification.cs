@@ -10,8 +10,10 @@ namespace TKMobileStore.Entities.Catalog
     {
         public bool Deleted { get; set; }
 
+        public string ProductName { get; set; }
+
         public virtual ICollection<ProductSpecificationAttribute> ProductSpecificationAttributes { get; set; }
 
-        public string ProductName { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }

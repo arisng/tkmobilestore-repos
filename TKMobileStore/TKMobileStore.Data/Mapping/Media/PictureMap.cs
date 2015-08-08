@@ -15,7 +15,7 @@ namespace TKMobileStore.Data.Mapping.Media
             this.ToTable("Picture");
             this.HasKey(p => p.Id);
             this.Property(p => p.PictureName).IsRequired().HasMaxLength(400);
-            this.Property(p => p.SeoFilename).HasMaxLength(300);
+            this.Property(p => p.SeoFileName).HasMaxLength(300);
         }
     }
 }

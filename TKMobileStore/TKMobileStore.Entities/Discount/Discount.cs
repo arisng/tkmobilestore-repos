@@ -40,12 +40,12 @@ namespace TKMobileStore.Entities.Discounts
         /// <summary>
         /// Gets or sets the discount start date and time
         /// </summary>
-        public DateTime? StartDateUtc { get; set; }
+        public DateTime? StartDate { get; set; }
 
         /// <summary>
         /// Gets or sets the discount end date and time
         /// </summary>
-        public DateTime? EndDateUtc { get; set; }
+        public DateTime? EndDate { get; set; }
 
         /// <summary>
         /// Gets or sets the discount type
