@@ -13,7 +13,7 @@ namespace TKMobileStore.Entities.Media
         /// <summary>
         /// Gets or sets the picture binary
         /// </summary>
-        public string PictureName { get; set; }
+        public byte[] PictureBinary { get; set; }
 
         /// <summary>
         /// Gets or sets the picture mime type

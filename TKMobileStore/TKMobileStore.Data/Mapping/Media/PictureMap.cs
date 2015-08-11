@@ -12,10 +12,11 @@ namespace TKMobileStore.Data.Mapping.Media
     {
         public PictureMap()
         {
-            this.ToTable("Picture");
-            this.HasKey(p => p.Id);
-            this.Property(p => p.PictureName).IsRequired().HasMaxLength(400);
-            this.Property(p => p.SeoFileName).HasMaxLength(300);
+            ToTable("Picture");
+            HasKey(p => p.Id);
+            Property(p => p.PictureBinary).IsMaxLength();
+            Property(p => p.MimeType).IsRequired().HasMaxLength(40);
+            Property(p => p.SeoFileName).HasMaxLength(300);
         }
     }
 }

@@ -43,3 +43,5 @@ F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.We
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web.Tests\obj\Debug\TKMobileStore.Web.Tests.csprojResolveAssemblyReference.cache
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web.Tests\obj\Debug\TKMobileStore.Web.Tests.dll
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web.Tests\obj\Debug\TKMobileStore.Web.Tests.pdb
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

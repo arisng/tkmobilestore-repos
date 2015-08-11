@@ -53,8 +53,10 @@
     <Compile Include="Mapping\Catalog\ProductMap.cs" />
     <Compile Include="Mapping\Catalog\ProductPictureMap.cs" />
     <Compile Include="Mapping\Catalog\ProductTagMap.cs" />
+    <Compile Include="Mapping\Discounts\DiscountMap.cs" />
     <Compile Include="Mapping\Media\PictureMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mapping\Seo\UrlRecordMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Infrastructure\" />

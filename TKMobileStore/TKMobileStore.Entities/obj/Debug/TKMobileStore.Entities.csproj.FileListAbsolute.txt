@@ -1,5 +1,4 @@
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Entities\bin\Debug\TKMobileStore.Entities.dll
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Entities\bin\Debug\TKMobileStore.Entities.pdb
-F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Entities\obj\Debug\TKMobileStore.Entities.csprojResolveAssemblyReference.cache
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Entities\obj\Debug\TKMobileStore.Entities.dll
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Entities\obj\Debug\TKMobileStore.Entities.pdb

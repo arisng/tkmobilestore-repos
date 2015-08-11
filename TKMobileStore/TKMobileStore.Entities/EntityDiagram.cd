@@ -5,32 +5,6 @@
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
-    <AssociationLine Name="ProductCategories" Type="TKMobileStore.Entities.Catalog.ProductCategory" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="14.938" Y="7.25" />
-        <Point X="14.938" Y="6.875" />
-        <Point X="14.969" Y="6.875" />
-        <Point X="14.969" Y="4.31" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-2.917" Y="0.244" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="ProductManufacturers" Type="TKMobileStore.Entities.Catalog.ProductManufacturer" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="14.688" Y="13.55" />
-        <Point X="14.688" Y="14.075" />
-        <Point X="16.5" Y="14.075" />
-      </Path>
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-1.466" Y="0.276" />
-      </MemberNameLabel>
-    </AssociationLine>
-    <AssociationLine Name="ProductReviews" Type="TKMobileStore.Entities.Catalog.ProductComment">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-2.659" Y="0.378" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>QAAAABAQAQgAAAAoQDAAlIQgCNACAAAgMAwIIAHAAAI=</HashCode>
       <FileName>Catalog\Product.cs</FileName>
@@ -39,14 +13,6 @@
       <Property Name="ProductType" />
       <Property Name="ProductSpecification" />
     </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Property Name="ProductCategories" />
-      <Property Name="ProductManufacturers" />
-      <Property Name="ProductTags" />
-      <Property Name="ProductPictures" />
-      <Property Name="ProductReviews" />
-      <Property Name="AppliedDiscounts" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.ProductCategory">
@@ -66,9 +32,6 @@
       <HashCode>QAAAQEAAACAgAAAAAAAAUAQAAEACAZAAIAgAIABAAAA=</HashCode>
       <FileName>Catalog\Category.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="AppliedDiscounts" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.Manufacturer" BaseTypeListCollapsed="true">
@@ -130,36 +93,17 @@
       <HashCode>AAAAAAwAAAAAAAQAAAAAAAAAAAAAAAAgAEAAIAAAAAA=</HashCode>
       <FileName>Media\Picture.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="ProductPictures" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.ProductSpecification">
-    <Position X="7.5" Y="9.5" Width="1.75" />
-    <AssociationLine Name="ProductSpecificationAttributes" Type="TKMobileStore.Entities.Catalog.ProductSpecificationAttribute" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7.5" Y="10.5" />
-        <Point X="5.25" Y="10.5" />
-        <Point X="5.25" Y="9.387" />
-      </Path>
-    </AssociationLine>
+    <Position X="7.5" Y="9.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAIAAQ=</HashCode>
       <FileName>Catalog\ProductSpecification.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="ProductSpecificationAttributes" />
-      <Property Name="Products" />
-    </ShowAsCollectionAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.ProductSpecificationAttribute">
     <Position X="4" Y="7" Width="2.5" />
-    <AssociationLine Name="SpecificationAttributeOption" Type="TKMobileStore.Entities.Catalog.SpecificationAttributeOption">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-1.744" Y="0.256" />
-      </MemberNameLabel>
-    </AssociationLine>
     <AssociationLine Name="ProductSpecification" Type="TKMobileStore.Entities.Catalog.ProductSpecification" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="5.875" Y="9.387" />
@@ -175,9 +119,9 @@
       <FileName>Catalog\ProductSpecificationAttribute.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Property Name="ProductSpecification" />
       <Property Name="AttributeType" />
       <Property Name="SpecificationAttributeOption" />
-      <Property Name="ProductSpecification" />
     </ShowAsAssociation>
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.ProductTag">
@@ -186,9 +130,6 @@
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAQ=</HashCode>
       <FileName>Catalog\ProductTag.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Products" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.SpecificationAttribute">
     <Position X="5.5" Y="0.5" Width="4.75" />
@@ -196,9 +137,6 @@
       <HashCode>AAAAQAARAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Catalog\SpecificationAttribute.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="SpecificationAttributeOptions" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TKMobileStore.Entities.Catalog.SpecificationAttributeOption">
     <Position X="5.5" Y="4" Width="5" />
@@ -209,9 +147,6 @@
     <ShowAsAssociation>
       <Property Name="SpecificationAttribute" />
     </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Property Name="ProductSpecificationAttributes" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TKMobileStore.Entities.Discounts.Discount">
     <Position X="17.5" Y="8.5" Width="3.25" />
@@ -222,10 +157,6 @@
     <ShowAsAssociation>
       <Property Name="DiscountType" />
     </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Property Name="AppliedToProducts" />
-      <Property Name="AppliedToCategories" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Enum Name="TKMobileStore.Entities.Catalog.ProductType">
     <Position X="7.75" Y="7.5" Width="1.5" />

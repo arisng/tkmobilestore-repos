@@ -74,3 +74,4 @@ F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.We
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web\obj\Debug\ApplicationInsights.config
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web\obj\Debug\TKMobileStore.Web.dll
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web\obj\Debug\TKMobileStore.Web.pdb
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Web\obj\Debug\TKMobileStore.Web.csprojResolveAssemblyReference.cache

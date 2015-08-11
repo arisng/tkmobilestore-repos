@@ -2,3 +2,10 @@ F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Da
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\TKMobileStore.Data.pdb
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\obj\Debug\TKMobileStore.Data.dll
 F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\obj\Debug\TKMobileStore.Data.pdb
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\EntityFramework.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\TKMobileStore.Entities.dll
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\TKMobileStore.Entities.pdb
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\EntityFramework.xml
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\My Work Space\Web Projects\tkmobilestore-repos\TKMobileStore\TKMobileStore.Data\obj\Debug\TKMobileStore.Data.csprojResolveAssemblyReference.cache

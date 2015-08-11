@@ -12,12 +12,12 @@ namespace TKMobileStore.Data.Mapping.Catalog
     {
         public CategoryMap()
         {
-            this.ToTable("Category");
-            this.HasKey(c => c.Id);
-            this.Property(c => c.Name).IsRequired().HasMaxLength(400);
-            this.Property(c => c.MetaKeywords).HasMaxLength(400);
-            this.Property(c => c.MetaTitle).HasMaxLength(400);
-            this.Property(c => c.PriceRanges).HasMaxLength(400);
+            ToTable("Category");
+            HasKey(c => c.Id);
+            Property(c => c.Name).IsRequired().HasMaxLength(400);
+            Property(c => c.MetaKeywords).HasMaxLength(400);
+            Property(c => c.MetaTitle).HasMaxLength(400);
+            Property(c => c.PriceRanges).HasMaxLength(400);
         }
     }
 }
