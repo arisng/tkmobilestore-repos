@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using TKMobileStore.Entities.Catalog;
+using TKMobileStore.Core.Domain.Catalog;
 
 namespace TKMobileStore.Data.Mapping.Catalog
 {

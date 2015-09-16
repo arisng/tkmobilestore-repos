@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Web", "TKMobileStore.Web\TKMobileStore.Web.csproj", "{D9424228-A834-4E76-A5C1-E5DB028EE586}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -28,6 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6BF846
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Data", "TKMobileStore.Data\TKMobileStore.Data.csproj", "{F4B868F0-6421-4761-A43B-5D50C868C551}"
 	ProjectSection(ProjectDependencies) = postProject
+		{914A3E0D-D064-4B30-97C7-9A168A433EA0} = {914A3E0D-D064-4B30-97C7-9A168A433EA0}
 		{3E36D27A-9E88-4E07-9A80-7625332FC6DA} = {3E36D27A-9E88-4E07-9A80-7625332FC6DA}
 	EndProjectSection
 EndProject

@@ -54,6 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Mapping\Catalog\CategoryMap.cs" />
     <Compile Include="Mapping\Catalog\ManufacturerMap.cs" />
     <Compile Include="Mapping\Catalog\ProductCategoryMap.cs" />
@@ -65,20 +67,18 @@
     <Compile Include="Mapping\Media\PictureMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mapping\Seo\UrlRecordMap.cs" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Infrastructure\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TKMobileStore.Entities\TKMobileStore.Entities.csproj">
-      <Project>{3e36d27a-9e88-4e07-9a80-7625332fc6da}</Project>
-      <Name>TKMobileStore.Entities</Name>
+    <ProjectReference Include="..\TKMobileStore.Core\TKMobileStore.Core.csproj">
+      <Project>{914a3e0d-d064-4b30-97c7-9a168a433ea0}</Project>
+      <Name>TKMobileStore.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

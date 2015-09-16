@@ -4,7 +4,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TKMobileStore.Entities.Seo;
+using TKMobileStore.Core.Domain.Seo;
 
 namespace TKMobileStore.Data.Mapping.Seo
 {

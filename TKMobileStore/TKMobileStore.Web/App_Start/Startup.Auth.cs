@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using TKMobileStore.Web.Models;
+using TKMobileStore.Data;
+using TKMobileStore.Core.Domain.User;
 
 namespace TKMobileStore.Web
 {
