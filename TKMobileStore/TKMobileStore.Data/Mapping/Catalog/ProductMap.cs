@@ -16,6 +16,7 @@ namespace TKMobileStore.Data.Mapping.Catalog
             Property(p => p.Price).HasPrecision(18, 4);
 
             Ignore(p => p.ProductType);
+            Ignore(p => p.ProductCondition);
 
             HasMany(p => p.ProductTags)
                 .WithMany(pt => pt.Products)

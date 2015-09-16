@@ -62,6 +62,7 @@
     <Compile Include="Domain\Catalog\Product.cs" />
     <Compile Include="Domain\Catalog\ProductCategory.cs" />
     <Compile Include="Domain\Catalog\ProductComment.cs" />
+    <Compile Include="Domain\Catalog\ProductCondition.cs" />
     <Compile Include="Domain\Catalog\ProductManufacturer.cs" />
     <Compile Include="Domain\Catalog\ProductPicture.cs" />
     <Compile Include="Domain\Catalog\ProductSortingEnum.cs" />

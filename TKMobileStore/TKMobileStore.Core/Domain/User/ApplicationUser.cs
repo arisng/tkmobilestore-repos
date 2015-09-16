@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -15,9 +16,11 @@ namespace TKMobileStore.Core.Domain.User
 
         public DateTime? BirthDate { get; set; }
 
-        public int AddressId { get; set; }
+        //[ForeignKey("Address")]
+        //public int AddressId { get; set; }
 
-        public Address Address { get; set; }
+        //[ForeignKey("AddressId")]
+        //public virtual Address Address { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

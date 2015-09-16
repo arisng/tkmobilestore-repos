@@ -1,5 +1,5 @@
 ﻿using System;
-using TKMobileStore.Entities.Customers;
+using TKMobileStore.Core.Domain.User;
 
 namespace TKMobileStore.Core.Domain.Catalog
 {
@@ -8,7 +8,7 @@ namespace TKMobileStore.Core.Domain.Catalog
         /// <summary>
         /// Gets or sets the customer identifier
         /// </summary>
-        public int CustomerId { get; set; }
+        public string CustomerId { get; set; }
 
         /// <summary>
         /// Gets or sets the product identifier

@@ -1,4 +1,4 @@
-﻿using TKMobileStore.Core.Domain.Discounts;
+﻿using TKMobileStore.Core.Domain.Media;
 
 namespace TKMobileStore.Core.Domain.Catalog
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using TKMobileStore.Core.Domain.Catalog;
 
-namespace TKMobileStore.Core.Domain.Discounts
+namespace TKMobileStore.Core.Domain.Media
 {
     public partial class Picture : BaseEntity
     {

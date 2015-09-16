@@ -46,11 +46,6 @@ namespace TKMobileStore.Core.Domain.Catalog
         public int StockQuantity { get; set; }
 
         /// <summary>
-        /// Gets or sets a value which represents the percentage indicating the current condition of a product
-        /// </summary>
-        public int ProductCondition { get; set; }
-
-        /// <summary>
         /// Gets or sets the meta keywords
         /// </summary>
         public string MetaKeywords { get; set; }
@@ -83,13 +78,16 @@ namespace TKMobileStore.Core.Domain.Catalog
         /// <summary>
         /// Gets or sets the available start date and time
         /// </summary>
-        public DateTime? AvailableStartDateTime { get; set; }
+        //public DateTime? AvailableStartDateTime { get; set; }
 
         /// <summary>
         /// Gets or sets the available end date and time
         /// </summary>
-        public DateTime? AvailableEndDateTime { get; set; }
+        //public DateTime? AvailableEndDateTime { get; set; }
 
+        /// <summary>
+        /// Gets or sets the product type identifier
+        /// </summary>
         public int ProductTypeId { get; set; }
 
         /// <summary>
@@ -104,6 +102,26 @@ namespace TKMobileStore.Core.Domain.Catalog
             set
             {
                 this.ProductTypeId = (int)value;
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the product condition identifier
+        /// </summary>
+        public int ProductConditionId { get; set; }
+
+        /// <summary>
+        /// Gets or sets the product condition
+        /// </summary>
+        public ProductCondition ProductCondition
+        {
+            get
+            {
+                return (ProductCondition)ProductConditionId;
+            }
+            set
+            {
+                ProductConditionId = (int)value;
             }
         }
 
@@ -142,7 +160,7 @@ namespace TKMobileStore.Core.Domain.Catalog
         /// <summary>
         /// Gets or sets the collection of product reviews
         /// </summary>
-        public virtual ICollection<ProductComment> ProductReviews
+        public virtual ICollection<ProductComment> ProductComments
         {
             get { return _productComments ?? (_productComments = new List<ProductComment>()); }
             protected set { _productComments = value; }

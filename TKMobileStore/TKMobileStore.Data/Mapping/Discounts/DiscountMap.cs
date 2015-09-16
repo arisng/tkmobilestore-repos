@@ -20,7 +20,7 @@ namespace TKMobileStore.Data.Mapping.Discounts
 
             Ignore(d => d.DiscountType);
 
-            HasMany(dr => dr.AppliedToCategories)
+            HasMany(d => d.AppliedToCategories)
                 .WithMany(c => c.AppliedDiscounts)
                 .Map(m => m.ToTable("Discount_AppliedToCategories"));
 

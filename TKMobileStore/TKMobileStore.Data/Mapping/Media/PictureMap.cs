@@ -4,7 +4,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TKMobileStore.Core.Domain.Discounts;
+using TKMobileStore.Core.Domain.Media;
 
 namespace TKMobileStore.Data.Mapping.Media
 {

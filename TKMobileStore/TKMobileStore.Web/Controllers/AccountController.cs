@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using TKMobileStore.Web.Models;
+using TKMobileStore.Core.Domain.User;
 
 namespace TKMobileStore.Web.Controllers
 {
