@@ -75,7 +75,7 @@ namespace TKMobileStore.Web.Models
 
         [DataType(DataType.Date)]
         [Display(Name = "Ngày sinh")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:DD/MM/YYYY}", ApplyFormatInEditMode = true)]
         public DateTime BirthDate { get; set; }
 
         [Required]

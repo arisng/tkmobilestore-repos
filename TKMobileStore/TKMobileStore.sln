@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Entities", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Core", "TKMobileStore.Core\TKMobileStore.Core.csproj", "{914A3E0D-D064-4B30-97C7-9A168A433EA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TKMobileStore.Web.Framework", "TKMobileStore.Web.Framework\TKMobileStore.Web.Framework.csproj", "{96EA5072-6176-44EF-8D98-FA8FF2B76629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{914A3E0D-D064-4B30-97C7-9A168A433EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{914A3E0D-D064-4B30-97C7-9A168A433EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{914A3E0D-D064-4B30-97C7-9A168A433EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EA5072-6176-44EF-8D98-FA8FF2B76629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EA5072-6176-44EF-8D98-FA8FF2B76629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EA5072-6176-44EF-8D98-FA8FF2B76629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EA5072-6176-44EF-8D98-FA8FF2B76629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

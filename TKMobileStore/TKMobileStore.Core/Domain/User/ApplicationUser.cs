@@ -14,7 +14,11 @@ namespace TKMobileStore.Core.Domain.User
 
         public string LastName { get; set; }
 
-        public DateTime? BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
+
+        public DateTime CreatedOn { get; set; }
+
+        public DateTime UpdatedOn { get; set; }
 
         //[ForeignKey("Address")]
         //public int AddressId { get; set; }
