@@ -200,3 +200,6 @@ packages*/
 Make an exception to include NuGet.exe
 *.exe
 !NuGet.exe
+
+# ignore all bin folders
+bin*/
