@@ -193,3 +193,10 @@ ModelManifest.xml
 /TKMobileStore/packages/EntityFramework.6.1.3/lib
 /TKMobileStore/packages/EntityFramework.6.1.3/tools
 /TKMobileStore/packages/EntityFramework.6.1.3
+
+# ignore all package folders
+packages*/
+
+Make an exception to include NuGet.exe
+*.exe
+!NuGet.exe
